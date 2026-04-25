@@ -1,0 +1,11 @@
+name = "leconi-checkout"
+main = "worker.js"
+compatibility_date = "2024-01-18"
+
+[vars]
+REDIRECT_URL = "https://leconiusa.com"
+SUPPORT_EMAIL = "hello@leconiusa.com"
+
+# Set secrets via CLI (never commit these):
+#   wrangler secret put SQUARE_ACCESS_TOKEN
+#   wrangler secret put SQUARE_LOCATION_ID
